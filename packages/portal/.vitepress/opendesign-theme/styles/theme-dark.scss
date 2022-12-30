@@ -1,0 +1,152 @@
+:root.dark {
+  // 成功色
+  --o-color-success1: var(--o-color-yellowgreen5); // normal
+  --o-color-success2: var(--o-color-yellowgreen7); // hover
+  --o-color-success3: var(--o-color-yellowgreen2); // disabled
+
+  // 告警色
+  --o-color-warning1: var(--o-color-orange5); // normal
+  --o-color-warning2: var(--o-color-orange7); // hover
+  --o-color-warning3: var(--o-color-orange1); // disabled
+
+  // 错误色
+  --o-color-error1: var(--o-color-red5); // normal
+  --o-color-error2: var(--o-color-red7); // hover
+  --o-color-error3: var(--o-color-red1); // disabled
+
+  // 品牌色
+  --o-color-brand1: var(--o-color-kleinblue8); // 常规
+  --o-color-brand2: var(--o-color-kleinblue9); // 悬浮
+  --o-color-brand3: var(--o-color-kleinblue5); // 点击确认
+  --o-color-brand4: var(--o-color-kleinblue7); // 特殊场景
+  --o-color-brand5: var(--o-color-kleinblue3); // 普通禁用
+  --o-color-brand6: var(--o-color-kleinblue3); // 文字禁用
+
+  // 文字颜色
+  --o-color-text1: var(--o-color-white); // 强调/正文标题
+  --o-color-text2: var(--o-color-black); // 强调/正文标题
+  --o-color-text3: var(--o-color-neutral11); // 次强调/正文标题
+  --o-color-text4: var(--o-color-neutral9); // 次要信息/正文
+  --o-color-text5: var(--o-color-neutral5); // 置灰信息
+
+  // 背景色
+  --o-color-bg1: var(--o-color-neutral1); // 整体背景色
+  --o-color-bg2: var(--o-color-greyblack1); // 一级容器背景色
+  --o-color-bg3: var(--o-color-greyblack2); // 二级容器背景色
+  --o-color-bg4: var(--o-color-greyblack3); // 三级容器背景色
+  --o-color-bg5: var(--o-color-greyblack3); // 弹出框、tooltip背景色
+  --o-color-bg6: rgba(0, 0, 0, 0.5); // 蒙层
+
+  // 链接色
+  --o-color-link1: var(--o-color-kleinblue8); // 常规
+  --o-color-link2: var(--o-color-kleinblue9); // 悬浮
+  --o-color-link3: var(--o-color-kleinblue5); // 点击
+  --o-color-link4: var(--o-color-kleinblue7); // 特殊场景
+  --o-color-link5: var(--o-color-kleinblue3); // 一般禁用
+  --o-color-link6: var(--o-color-kleinblue3); // 文字禁用，暂和一般禁用保持一致
+
+  // 边框颜色
+  --o-color-border1: var(--o-color-neutral9);
+  --o-color-border2: var(--o-color-neutral3);
+  --o-color-border3: var(--o-color-kleinblue8);
+
+  // 分割线颜色
+  --o-color-division1: var(--o-color-neutral3);
+
+  // 填充色，用于阴影容器背景
+  --o-color-fill1: var(
+    --o-color-greyblack1
+  ); // SL1 一级投影容器背景，应用于默认状态的卡片、楼层、导航栏、组件里局部投影背景等
+  --o-color-fill2: var(
+    --o-color-greyblack1
+  ); // SL2 二级投影容器背景，应用于卡片、组件里局部投影等
+  --o-color-fill2_hover: var(
+    --o-color-greyblack2
+  ); // SL2-hover 升起投影容器背景，应用于悬停状态的卡片等，是SL2的激活态
+  --o-color-fill3: var(
+    --o-color-greyblack2
+  ); // SL3 三级投影容器背景，应用于一级投影上的卡片、组件等
+  --o-color-fill4: var(
+    --o-color-greyblack3
+  ); // SL4 覆盖阴影容器背景，应用于信息提示【tips、活动进入按钮等】等投影容器
+  --o-color-fill5: var(
+    --o-color-greyblack4
+  ); // SL5 弹出阴影容器背景，应用于模态弹窗投影
+
+  /**
+   * 阴影
+   */
+  --o-shadow-l1: 0 1px 7px rgba(0, 0, 0, 0.3); // SL1 一级投影，应用于楼层、导航栏、组件里局部投影等，
+  --o-shadow-l2: 0 1px 7px rgba(0, 0, 0, 0.3); // SL2-normal 二级投影，应用于卡片、组件里局部投影等
+  --o-shadow-l2_hover: 0 6px 18px rgba(0, 0, 0, 0.42); // SL2-hover 升起投影，应用于悬停状态的卡片等，是SL2的激活态
+  --o-shadow-l3: 0 6px 18px rgba(0, 0, 0, 0.42); // SL3 三级投影，应用于一级投影上的卡片、组件等
+  --o-shadow-l4: 0 10px 32px rgba(0, 0, 0, 0.54); // SL4 覆盖阴影，应用于信息提示【tips、活动进入按钮等】等投影
+  --o-shadow-l5: 0 12px 42px rgba(0, 0, 0, 0.72); // SL5 弹出阴影，应用于模态弹窗投影
+}
+
+:root.dark {
+  // 品牌色
+  --e-color-primary1: #406fe7; // 常规 var(--e-color-kleinblue8)
+  --e-color-primary2: #6b95ff; // 悬浮 var(--e-color-kleinblue9)
+  --e-color-primary3: #002fa7; // 确认 var(--e-color-kleinblue5)
+  --e-color-primary4: #0c2360; // 禁用 var(--e-color-kleinblue3)
+
+  // 辅助色
+  --e-color-major1: #fff36a; // var(--e-color-yellow8)
+
+  // 成功色
+  --e-color-success1: #6dc335; // 常规 var(--e-color-green5)
+  --e-color-success2: #93e95b; // 悬浮 var(--e-color-green7)
+  --e-color-success3: #62af30; // 确认 var(--e-color-green4)
+  --e-color-success4: #355f1a; // 禁用 var(--e-color-green2)
+
+  // 告警色
+  --e-color-warning1: #ff8e36; // 常规 var(--e-color-orange5)
+  --e-color-warning2: #ffb45c; // 悬浮 var(--e-color-orange7)
+  --e-color-warning3: #ff801c; // 确认 var(--e-color-orange4)
+  --e-color-warning4: #9b370e; // 禁用 var(--e-color-orange1)
+
+  // 错误色
+  --e-color-danger1: #f3524d; // 常规 var(--e-color-red5)
+  --e-color-danger2: #ff7873; // 悬浮 var(--e-color-red7)
+  --e-color-danger3: #f13b35; // 确认 var(--e-color-red4)
+  --e-color-danger4: #850d09; // 禁用 var(--e-color-red1)
+
+  // info色
+  --e-color-info1: #242424; // 常规 var(--e-color-greyblack2)
+  --e-color-info2: #2e2e2e; // 悬浮 var(--e-color-greyblack3)
+  --e-color-info3: #1e1e1e; // 确认 var(--e-color-neutral10)
+  --e-color-info4: #151515; // 禁用 var(--e-color-neutral2)
+
+  // 背景色
+  --e-color-bg1: #121212; // 一级容器背景色(页面全局) var(--e-color-neutral1)
+  --e-color-bg2: #1e1e1e; // 二级容器背景色 var(--e-color-greyblack1)
+  --e-color-bg3: #242424; // 三级容器背景色  var(--e-color-greyblack2)
+  --e-color-bg4: #2e2e2e; // 四级容器背景色 var(--e-color-greyblack3)
+
+  // 文字颜色
+  --e-color-text1: #ffffff; // 强调/正文标题 浅色 var(--e-color-white)
+  --e-color-text1_inverse: #000000; // 强调/正文标题 深色 var(--e-color-black)
+  --e-color-text2: #e5e5e5; // 次强调/正文标题 浅色 var(--e-color-neutral11);
+  --e-color-text2_inverse: #3f3f3f; // 次强调/正文标题 深色 var(--e-color-neutral4);
+  --e-color-text3: #b2b2b2; // 次要信息/正文 浅色 var(--e-color-neutral9);
+  --e-color-text3_inverse: #707070; // 次要信息/正文 深色 var(--e-color-neutral6);
+  --e-color-text4: #e5e5e5; // 置灰信息 浅色 var(--e-color-neutral11)
+  --e-color-text4_inverse: #cccccc; // 置灰信息 深色 var(--e-color-10);
+
+  // 遮罩色
+  --e-color-mask1: rgba(0, 0, 0, 0.5);
+
+  // 边框色
+  --e-color-border1: #b2b2b2; // var(--e-color-neutral9)
+  --e-color-border2: #2d2d2d; // var(--e-color-neutral3)
+
+  // 分割线颜色
+  --e-color-division1: #2d2d2d; // var(--e-color-neutral3)
+}
+
+:root.dark {
+  --e-shadow-1: 0 1px 7px rgba(0, 0, 0, 0.3); // 卡片、小弹窗、楼层
+  --e-shadow-2: 0 6px 18px rgba(0, 0, 0, 0.42); // 卡片hover
+  --e-shadow-3: 0 10px 32px rgba(0, 0, 0, 0.54); // tip
+}

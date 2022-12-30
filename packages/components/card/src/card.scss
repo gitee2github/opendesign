@@ -1,0 +1,33 @@
+.o-card {
+  display: inline-block;
+  background: var(--o-color-bg2);
+  box-shadow: var(--o-shadow-l2);
+
+  &.is-borderd {
+    border: 1px solid var(--o-color-border2);
+  }
+  &.is-hoverable:hover {
+    box-shadow: var(--o-shadow-l2_hover);
+  }
+
+  .o-card-header {
+    display: flex;
+    align-items: center;
+    color: var(--o-color-text1);
+    padding: 10px 24px;
+    border-bottom: 1px solid var(--o-color-border2);
+    font-size: var(--o-font-size-h7);
+    line-height: var(--o-line-heihg-h7);
+  }
+
+  .o-card-cover {
+    overflow: hidden;
+  }
+
+  .o-card-body {
+    padding: 24px;
+    color: var(--o-color-text4);
+    font-size: var(--o-font-size-text);
+    line-height: var(--o-line-height-text);
+  }
+}
