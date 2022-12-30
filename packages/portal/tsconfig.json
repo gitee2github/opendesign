@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [".vitepress/*"],
+      "open-design": ["../components"]
+    },
+    "types": ["unplugin-icons/types/vue"]
+  },
+  "extends": "../../tsconfig.json",
+  "include": [
+    "./env.d.ts",
+    "./vite.config.js",
+    ".vitepress/**/*.ts",
+    ".vitepress/**/*.d.ts",
+    ".vitepress/**/*.tsx",
+    ".vitepress/**/*.vue"
+  ],
+  "exclude": ["node_modules", ".vitepress/dist"],
+  "references": [{ "path": "../components/tsconfig.json" }]
+}

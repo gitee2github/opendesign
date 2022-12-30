@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": "./"
+  },
+  "extends": "../../tsconfig.json",
+  "include": ["./**/*.ts", "./**/*.d.ts", "./**/*.tsx", "./**/*.vue"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,61 @@
+// 颜色
+:root {
+  // 品牌色
+  --e-color-primary1: #002fa7; // 常规 var(--e-color-kleinblue5)
+  --e-color-primary2: #406fe7; // 悬浮 var(--e-color-kleinblue8)
+  --e-color-primary3: #00288d; // 确认 var(--e-color-kleinblue4)
+  --e-color-primary4: #b2c0e4; // 禁用 var(--e-color-kleinblue10)
+
+  // 辅助色
+  --e-color-major1: #feb32a; // var(--e-color-yellow5)
+
+  // 成功色
+  --e-color-success1: #6dc335; // 常规 var(--e-color-green5)
+  --e-color-success2: #93e95b; // 悬浮 var(--e-color-green7)
+  --e-color-success3: #62af30; // 确认 var(--e-color-green4)
+  --e-color-success4: #c5e7ae; // 禁用 var(--e-color-green10)
+
+  // 告警色
+  --e-color-warning1: #ff8e36; // 常规 var(--e-color-orange5)
+  --e-color-warning2: #ffb45c; // 悬浮 var(--e-color-orange7)
+  --e-color-warning3: #ff801c; // 确认 var(--e-color-orange4)
+  --e-color-warning4: #ffd2af; // 禁用 var(--e-color-orange10)
+
+  // 错误色
+  --e-color-danger1: #f3524d; // 常规 var(--e-color-red5)
+  --e-color-danger2: #ff7873; // 悬浮 var(--e-color-red7)
+  --e-color-danger3: #f13b35; // 确认 var(--e-color-red4)
+  --e-color-danger4: #fabab8; // 禁用 var(--e-color-red10)
+
+  // info色
+  --e-color-info1: #e5e5e5; // 常规 var(--e-color-neutral11)
+  --e-color-info2: #e5e8f0; // 悬浮 var(--e-color-greyblue1)
+  --e-color-info3: #cccccc; // 确认 var(--e-color-neutral10)
+  --e-color-info4: #f7f8fa; // 禁用 var(--e-color-greyblue2)
+
+  // 背景色
+  --e-color-bg1: #f5f6f8; // 一级容器背景色(页面全局) var(--e-color-greyblue3)
+  --e-color-bg2: #ffffff; // 二级容器背景色 var(--e-color-white)
+  --e-color-bg3: #f7f8fa; // 三级容器背景色  var(--e-color-greyblue2)
+  --e-color-bg4: #e5e8f0; // 四级容器背景色 var(--e-color-greyblue1)
+
+  // 文字颜色
+  --e-color-text1: #000000; // 强调/正文标题 深色 var(--e-color-black)
+  --e-color-text1_inverse: #ffffff; // 强调/正文标题 浅色 var(--e-color-white)
+  --e-color-text2: #3f3f3f; // 次强调/正文标题 深色 var(--e-color-neutral4);
+  --e-color-text2_inverse: #e5e5e5; // 次强调/正文标题 浅色 var(--e-color-neutral11);
+  --e-color-text3: #707070; // 次要信息/正文 深色 var(--e-color-neutral6);
+  --e-color-text3_inverse: #b2b2b2; // 次要信息/正文 浅色 var(--e-color-neutral9);
+  --e-color-text4: #cccccc; // 置灰信息 深色 var(--e-color-10);
+  --e-color-text4_inverse: #e5e5e5; // 置灰信息 浅色 var(--e-color-neutral11)
+
+  // 遮罩色
+  --e-color-mask1: rgba(0, 0, 0, 0.5);
+
+  // 边框色
+  --e-color-border1: #707070; // var(--e-color-neutral6)
+  --e-color-border2: #e5e5e5; // var(--e-color-neutral11)
+
+  // 分割线颜色
+  --e-color-division1: #707070; // var(--e-color-neutral6)
+}
